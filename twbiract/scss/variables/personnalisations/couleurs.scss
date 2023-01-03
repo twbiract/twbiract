@@ -1,0 +1,90 @@
+// debut-docs-scss variables-couleurs-nb
+$noire:         #000000 !default;
+$blanc:         #ffffff !default;
+// fin-docums-scss variables-couleurs-nb
+
+// debut-docs-scss carte-couleurs-nb
+$couleurs-nb: (
+    "noire": $noire,
+    "blanc": $blanc,
+) !default;
+// fin-docums-scss carte-couleurs-nb
+
+// debut-docs-scss variable-couleurs-grise
+$grise-100:     #f8f9fa !default;
+$grise-200:     #e9ecef !default;
+$grise-300:     #dee2e6 !default;
+$grise-400:     #ced4da !default;
+$grise-500:     #adb5bd !default;
+$grise-600:     #6c757d !default;
+$grise-700:     #495057 !default;
+$grise-800:     #343a40 !default;
+$grise-900:     #212529 !default;
+// fin-docs-scss variable-couleurs-grise
+
+// debut-docs-scss carte-couleurs-grise
+$grises: (
+    'grise-100': $grise-100,
+    'grise-200': $grise-200,
+    'grise-300': $grise-300,
+    'grise-400': $grise-400,
+    'grise-500': $grise-500,
+    'grise-600': $grise-600,
+    'grise-700': $grise-700,
+    'grise-800': $grise-800,
+    'grise-900': $grise-900,
+) !default;
+// fin-docs-scss carte-couleurs-grise
+
+// debut-docs-scss des variables-couleurs
+$bleu:          #0000ff !default;
+$violet:        #800180 !default;
+$rose:          #d63384 !default;
+$gris:          #808080 !default;
+$vert:          #13ad53 !default;
+$rouge:         #ff0000 !default;
+$orange:        #ff7300 !default;
+$jaune:         #49f804 !default;
+$transparent: transparent !default;
+// fin-docs-scss des variable-couleurs
+
+// debut-docs-scss carte-couleurs
+$couleurs: map-merge(
+    (
+        'bleu':       $bleu,
+        'violet':   $violet,
+        'rose':       $rose,
+        'gris':       $gris,
+        'vert':       $vert,
+        'rouge':     $rouge,
+        'orange':   $orange,
+        'jaune':     $jaune,
+        'transparent': $transparent
+    ),
+    $couleurs-nb
+) !default;
+// fin-docs-scss carte-couleurs
+
+// debut-docs-scss variables-theme-couleurs
+$sombre:        #343a40 !default;
+$primaire:      #0d6efd !default;
+$secondaire:    #6c757d !default;
+$claire:        #f8f9fa !default;
+$danger:        #dc3545 !default;
+$info:          #0dcaf0 !default;
+$avertir:       #ffc109 !default;
+$succes:        #14df9f !default;
+// fin-docs-scss variables-theme-couleurs
+
+// debut-docs-scss carte-theme-couleurs
+$themes-couleurs: (
+    'sombre':          $sombre,
+    'primaire':      $primaire,
+    'secondaire':  $secondaire,
+    'claire':          $claire,
+    'danger':          $danger,
+    'info':              $info,
+    'avertir':        $avertir,
+    'succes':           $succes
+) !default;
+// fin-docs-scss carte-theme-couleurs

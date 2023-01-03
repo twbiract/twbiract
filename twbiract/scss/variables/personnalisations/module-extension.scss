@@ -1,0 +1,46 @@
+// Configuration
+// Un guide pour configurer et personnaliser votre installation Twbiract.
+
+// Parce que Twbiract est un cadre pour la création d'interfaces utilisateur sur mesure, il a été conçu dès le départ avec la personnalisation à l'esprit, Inspirer de twitter bootstrap, Tailwind css, react et bien d'autres.
+
+// Par défaut, Twbiract recherchera un fichiers du nom Twbiract.config.scss facultatif à la racine de votre projet dans lequel vous pourrez définir des personnalisations
+
+$modules-exportations : (
+    couleurs: (
+        'bleu':        '#1fb6ff',
+        'violet':      '#7e5bef',
+        'rose':        '#ff49db',
+        'orange':      '#ff7849',
+        'vert':        '#13ce66',
+        'jaune':       '#ffc82c',
+        'gris-sombre': '#273444',
+        'gris':        '#8492a6',
+        'gris-claire': '#d3dce6',
+    ),
+
+    famillePolice: (
+        sans:  'Graphik', 'sans-serif',
+        serif: 'Merriweather', 'serif',
+    ),
+
+    espacement: (
+        '8xl': '96rem',
+        '9xl': '128rem',
+    ),
+) !default;
+
+
+$important: (
+    important: true,
+);
+
+// Séparateur
+// `separateur` option vous permet de personnaliser le caractère à utiliser pour séparer les modificateurs (tailles d'écran, survole, focus, etc.) des noms d'utilitaires ( text-center, items-end, etc.).
+
+// Nous utilisons deux-points par défaut ( - où _ où : ), mais il peut être utile de changer cela si vous utilisez un langage de template comme Pug qui ne prend pas en charge les caractères spéciaux dans les noms de classe.
+
+$separateurs: (
+    separateur-1: '-',
+    separateur-2: ':',
+    separateur-3: '_',
+);
